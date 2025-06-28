@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body { 
+    font-family : "Poppins", serif;
+    background-color: black;
+}
+/* banner starts*/
+.full-section {
+    background-image: url('../src/images/banner.png');
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    color: white;
+}
+.btn1{
+    background: #FF006A;
+    color: #FFCEE3;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.btn1:hover{
+    background: #FFCEE3;
+    color: #FF006A;
+    transition-duration: 0.5s;
+}
+.btn{
+    color: #FFCEE3;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.btn:hover{
+    background: #FFCEE3;
+    color: #FF006A;
+    transition-duration: 0.7s;
+}
+.content{
+    border-left: 5px solid #FF006A; 
+    padding: 15px;
+}
+.bi1{
+    color: #FF006A;
+}
+/* banner ends*/
+
+/* About section starts*/
+#about-section {
+    background-image: url('../src/images/banner2.png');
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.second{
+    display: flex;
+    gap: 30px;
+}
+.second h1{
+    color: white;
+}  
+.second h1 span{  
+    color: #FF006A;
+}
+.name{
+    font-size: 40px;
+}
+.content{
+    font-size: 20px;
+}
+.cont{
+    font-size: 20px;
+}
+/* About section ends*/
+
+/* Myworks section starts*/
+#skill-section {
+    background-image: url('../src/images/bg_4.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.card{
+    width: 22rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 225, 225, 0.362);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(19, 3, 3, 0.3);
+}
+.works{
+    display: flex;
+    gap: 80px;
+}
+.card-body{
+    gap: 10px;
+}
+.card-title1{
+    font-size: 26px;
+    /* width: 80px; */
+}
+.card-img-top{
+    border-radius: 40px;
+    padding: 10px;
+}
+.third h1{
+    color: #FF006A;
+}
+.third h1 span{  
+    color: white;
+}
+.head{
+    font-size: 28px;
+}
+.para{
+    font-size: 20px;
+}
+/* Myworks section ends*/
+
+/*My Skills section Starts*/
+#contact-section {
+    background-image: url('../src/images/bg_4.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+} 
+
+.progress,
+.progress-stacked {
+    --bs-progress-height: 1rem;
+    --bs-progress-font-size: 0.75rem;
+    --bs-progress-bg: #FFCEE3;
+    --bs-progress-border-radius: 20px;
+    --bs-progress-box-shadow: var(--bs-box-shadow-inset);
+    --bs-progress-bar-color: #fff;
+    --bs-progress-bar-bg: #FF006A;
+    --bs-progress-bar-transition: width 0.6s ease;
+    display: flex;
+    height: 28px;
+    overflow: hidden;
+    font-size: 20px;
+    background-color: var(--bs-progress-bg);
+    border-radius: var(--bs-progress-border-radius)
+}
+
+/*My Skills section ends*/
+
+/*contact section Starts*/
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2.2;
+    color: black;
+    background-color: rgba(0, 0, 0, 0.386);
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid #c9c9c9;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: var(--bs-border-radius);
+    transition: black .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+.form-control:focus {
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.386);
+    border-color: #000000;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(255, 255, 255, 0.312)
+}
+.form-text {
+    color: white;
+}
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.555);
+    opacity: 1
+}
+/*contact section ends*/
+
+/*Footer section starts*/
+.third h5{
+    color: #FF006A;
+}
+.third h5 span{  
+    color: white;
+}
+.fourth{
+    color: #FF006A;
+}
+.para1{
+    font-size: 24px;
+}
+.con{
+    font-size: 16px;
+    color: #ffffff;
+}
+/*Footer section ends*/
+
+
+

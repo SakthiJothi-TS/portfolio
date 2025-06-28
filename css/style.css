@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body { 
+    font-family : "Poppins", serif; 
+}
+
+:root {
+    --fs-48:48px;
+    --fs-32:32px;
+    --fs-28:28px;
+    --fs-26:26px;
+    --fs-24:24px;
+    --fs-20:20px;
+    --primary-color:#FF006A;
+    --secondary-color:#FFCEE3;
+    --tertiary-color:white;
+    --ff-poppins: "Poppins", serif; 
+}
+
+/*banner section starts*/
+.navbar{
+    background: #FF006A;
+}
+.navbar-nav {
+    text-decoration: none;
+    gap: 10px;
+    font-size: 20px;
+}
+.navbar-brand{
+    text-decoration: none;
+    list-style: none;
+    font-size: 26px;
+}
+.home{
+    background: #FFCEE3;
+    color: #FF006A;
+}
+.home:hover{
+    color: #FF006A;
+}
+.navbar-toggler {
+    border-color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.573);
+}
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+#navbarNav{
+    transition-duration: 0.7s;
+}
+.bi{
+    color: #ffffff;
+    font-size: var(--fs-26);
+}
+.bi2{
+    color: #ffffff;
+}
+.bi2:hover{
+    background: #FFCEE3;
+    color: #FF006A;
+    transition-duration: 0.5s;
+}
+.nav-link.active {
+    background-color: #FFCEE3;
+    color: #FF006A !important;
+    border-radius: 30px;
+    padding: 8px 20px;
+}
+.nav-link:hover{
+    background-color: #FFCEE3;
+    color: #FF006A !important;
+    border-radius: 30px;
+    padding: 8px 20px;
+    transition: all 0.7s ease;
+}
+.custom-download-btn {
+    --bs-btn-border-width: 3px;
+    transition: all 0.7s ease;
+}
+.custom-download-btn:hover {
+    background-color: #FFCEE3 !important;
+    color: #FF006A !important;
+}
+.custom-download-btn:hover .bi {
+    color: #FF006A !important;
+}
+
+
+
+  /* @media only screen and (max-width: 330px) {
+ 
