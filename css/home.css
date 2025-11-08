@@ -153,7 +153,7 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 2.2;
-    color: black;
+    color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 0.386);
     background-clip: padding-box;
     border: var(--bs-border-width) solid #c9c9c9;
